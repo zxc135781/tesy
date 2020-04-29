@@ -32,7 +32,7 @@ jobs:
       # 新建站点
       - name: new site
         run: |
-          hugo new site $HOME/blog
+          /go/bin/hugo new site $HOME/blog
       # 获取主题
       - name: get theme
         run: |
